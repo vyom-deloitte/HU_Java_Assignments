@@ -12,7 +12,6 @@ public class FileHandlingAssignment {
                 String[] str = scan.nextLine().split(",");
                 if (i != 0) {
                     students.add(new Student(str[0], str[1], str[2], str[3], Integer.parseInt(str[4])));
-                    // System.out.println(Arrays.toString(str));
                 }
                 i++;
             }
@@ -51,27 +50,31 @@ class Student {
     }
 
     public String getName() {
+
         return name;
     }
 
     public String getRegNo10() {
+
         return regNo10;
     }
 
     public String getRegNo12() {
+
         return regNo12;
     }
 
     public String getBtechRegNo() {
+
         return btechRegNo;
     }
 
     public int getRank() {
         return rank;
-    }
 
-    @Override
+    }
     public String toString() {
+
         return name + "," + regNo10 + "," + getRegNo12() + "," + btechRegNo + "," + rank;
     }
 }
