@@ -246,7 +246,7 @@ public class Crud implements Serializable {
         else if (c == 2) {//if new user wants to register
             registration();
             WriteRegData();
-            System.out.println("Registration successful.");
+
 
         } else {
             System.out.println("wrong choice");
